@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "magic1", "magic1\magic1.vcxproj", "{925D0880-8F1C-48BF-B63C-8D67D5A1F881}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "magicTest", "magicTest\magicTest.vcxproj", "{E8ED23F8-1092-4138-B6B3-FF624E3D24CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{925D0880-8F1C-48BF-B63C-8D67D5A1F881} = {925D0880-8F1C-48BF-B63C-8D67D5A1F881}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{925D0880-8F1C-48BF-B63C-8D67D5A1F881}.Debug|Win32.ActiveCfg = Debug|Win32
+		{925D0880-8F1C-48BF-B63C-8D67D5A1F881}.Debug|Win32.Build.0 = Debug|Win32
+		{925D0880-8F1C-48BF-B63C-8D67D5A1F881}.Release|Win32.ActiveCfg = Release|Win32
+		{925D0880-8F1C-48BF-B63C-8D67D5A1F881}.Release|Win32.Build.0 = Release|Win32
+		{E8ED23F8-1092-4138-B6B3-FF624E3D24CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8ED23F8-1092-4138-B6B3-FF624E3D24CB}.Debug|Win32.Build.0 = Debug|Win32
+		{E8ED23F8-1092-4138-B6B3-FF624E3D24CB}.Release|Win32.ActiveCfg = Release|Win32
+		{E8ED23F8-1092-4138-B6B3-FF624E3D24CB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
